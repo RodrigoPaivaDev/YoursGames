@@ -1,0 +1,97 @@
+:root{
+    --black:#363636;
+    --white:#fff;
+    --blue:#0070cc;
+    --btnhover: #505050;
+}
+
+
+header .container{
+    box-sizing: border-box;
+}
+
+
+header h2.logo{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header h2 img{
+    margin-left: 8px;
+}
+
+
+header nav.menu{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+header nav button{
+    font-size: 20px;
+    position: relative;
+    left: 33%;
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+header nav button:hover{
+    background-color: var(--btnhover);
+}
+
+
+
+header nav label{
+   position: relative;
+   left: 35%;
+   box-shadow: 0px 0px 1px;
+   width: auto;
+   padding: 6px;
+   
+}
+
+header nav label input {
+    border: none;
+    outline: none;
+}
+
+header nav label input::-moz-input-placeholder{
+    color: var(--btnhover);
+}
+
+header nav label input::-webkit-input-placeholder{
+    color: var(--btnhover);
+}
+
+
+
+
+
+header nav a{
+    text-decoration: none;
+    color: var(--black);
+    margin-right: 30px;
+    font-weight: 600;
+    position: relative;
+    left: 8%;
+}
+
+header nav a:hover{
+    color: var(--blue);
+}
