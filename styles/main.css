@@ -1,0 +1,42 @@
+main .tela-principal{
+    margin-top: 60px;
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0,0,0, .20), rgba(0,0,0, .20) 100%), url('../assets/tela-principal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right 15%;
+
+   
+    height: 800px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+main h3.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: var(--white);
+    margin-left: 70px;
+}
+ main h2.sub-titulo{
+     margin-top: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     color: var(--white);
+     margin-left: 70px;
+ }
+
+main h2 em.name-ps{
+    color: var(--blue);
+}
+
+main h2 em.name-xb{
+    color: var(--green);
+}
+
+main h2 em.name-nt{
+    color: var(--red);
+}

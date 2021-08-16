@@ -13,7 +13,7 @@ header h2.logo{
     letter-spacing: 2px;
     background-color: var(--black);
     color: var(--white);
-    padding: 5px;
+    padding: 18px;
     padding-left: 10px;
     width: 100%;
     display: flex;
@@ -79,6 +79,7 @@ header nav label input::-webkit-input-placeholder{
 
 
 header nav a{
+    font-size: 18px;
     text-decoration: none;
     color: var(--black);
     margin-right: 30px;
@@ -86,6 +87,7 @@ header nav a{
     position: relative;
     left: 8%;
 }
+
 
 
 header nav a.ps:hover{
